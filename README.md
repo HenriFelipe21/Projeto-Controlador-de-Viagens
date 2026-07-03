@@ -2,7 +2,9 @@ Projeto-Controlador-de-Viagens
 
 Manual de uso:
 Para compilar, você deve ter instalado um compilador c++, no meu caso utilizei o compilador Mingw encontrado no msys2. Você deve instalar todos os arquivos providenciados nesse repositório (a exceção do readme) e colar o seguinte comando no terminal:
+
 g++ maain.cpp Cidade.cpp Passageiro.cpp Trajeto.cpp Transporte.cpp Viagem.cpp ControladorDeTransito.cpp -o sistema_viagens
+
 após isso, cole:
 ./sistema_viagens para rodar o arquivo.
 
