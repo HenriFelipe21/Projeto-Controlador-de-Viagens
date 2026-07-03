@@ -15,6 +15,12 @@ Para os comandos:
 
 CADASTRAR_PASSAGEIRO: digite o comando como escrito e em seguida digite nome e cidade separado por espaços (se o nome for composto, utilize underline entre os nomes) (os nomes das cidades tem que ser digitados dessa forma: Fortaleza, Natal, Joao_Pessoa, Recife, Maceio e Salvador
 
-CADASTRAR_TRANSPORTE: digite o comando como escrito e em seguida digite nome do veículo(com _ se for composto), tipo de transporte (A para aquático ou T para terrestre), número representando a capacidade de passageiros do transporte, número representando velocidade em km/h, distancia em km para que o condutor descanse, tempo em horas do descanso do condutor e cidade de origem do transporte. Tudo separado por espaços.
+CADASTRAR_TRANSPORTE: digite o comando como escrito e em seguida digite nome do veículo (com _ se for composto), tipo de transporte (A para aquático ou T para terrestre), número representando a capacidade de passageiros do transporte, número representando velocidade em km/h, distancia em km para que o condutor descanse, tempo em horas do descanso do condutor e cidade de origem do transporte. Tudo separado por espaços.
 
-INICIAR_VIAGEM: Digite o comando como escrito e em seguida digite 
+INICIAR_VIAGEM: Digite o comando como escrito e em seguida digite o nome de um veículo já cadastrado (mesmo formato do comando acima), nome da cidade de partida (o veículo deve estar lá), nome da cidade de chegada, quantidade de passageiros que estaram na viagem e o nome de cada passageiro (com _ se for nome composto. Tudo separado por espaços.
+
+AVANCAR_HORAS: Digite o comando como escrito e em seguida digite um número inteiro que representa as horas que voce deseja avançar. Esse comando simula a passagem do tempo e também informa quando o veículo terminou certos trechos ou finalizou a viagem.
+
+RELATORIO: Digite o comando como escrito. Ele mostra as viagens em andamento, cidades mais visitadas, localização dos passageiros e localização dos transportes. 
+
+SAIR: Fecha o programa.
